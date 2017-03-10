@@ -1,5 +1,11 @@
-<br/>
-### hexo配置
+---
+title: hexo配置
+date: 3/10/2017 10:54:57 AM 
+categories:
+tags:
+     - hexo
+     - 配置
+---
 
 > 首先我们看看 站点配置文件 的配置 F:\hexo\_config.yml 。
 
@@ -7,16 +13,16 @@
 	## Docs: https://hexo.io/docs/configuration.html
 	## Source: https://github.com/hexojs/hexo/
 	# Site 网站
-	title: 为学   #网站标题
+	title: blog   #网站标题
 	subtitle: 天下事有难易乎？为之，则难者亦易矣；不为，则易者亦难矣。   #网站副标题
 	description: 天下事有难易乎？为之，则难者亦易矣；不为，则易者亦难矣。   #网站描述
-	author: willxue   #您的名字
+	author: Irving   #您的名字
 	language: zh-CN   #网站使用的语言
 	timezone:           #网站时区。Hexo 默认使用您电脑的时区
 	
 	# URL 网址
 	## 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，则请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
-	url: http://willxue.top
+	url: http://jiangwenqiang.pw
 	permalink: :year/:month/:day/:title/    #生成文件名字的格式我改成blog/:title:year:month:day/
 	permalink_defaults:
 <!--more-->	
@@ -77,14 +83,14 @@
 	## Docs: https://hexo.io/docs/deployment.html
 	deploy: 
 	type: git 
-	  repository: https://github.com/imwillxue/imwillxue.github.com.git 
+	  repository: https://github.com/Jwenqiang/Jiangwenqiang.github.com.git 
 	  branch: master
 
 ### 主题配置文件
 	favicon: /favicon.ico   #站标  可以放在hexo文件夹下的/source里
 	
 	# Set default keywords (Use a comma to separate)
-	keywords: "为学,willxue,willxue.top"  #网站关键字
+	keywords: "..."  #网站关键字
 	
 	# Set rss to false to disable feed link.
 	# Leave rss as empty to use site's feed link.
@@ -245,7 +251,7 @@
 	#baidu_analytics:
 	
 	# Duoshuo ShortName
-	duoshuo_shortname: imwillxue
+	duoshuo_shortname: ...
 	
 	# Disqus
 	#disqus_shortname:
@@ -281,8 +287,8 @@
 	duoshuo_info:
 	  ua_enable: true
 	  admin_enable: true
-	  user_id: 6262178932196377345
-	  admin_nickname: 神
+	  user_id: ...
+	  admin_nickname: ...
 	
 	
 	# Facebook SDK Support.

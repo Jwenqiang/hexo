@@ -1,5 +1,11 @@
-<br/>
-### 自己总结的一点CSS小常识
+---
+title: CSS小知识
+date: 3/10/2017 10:54:57 AM 
+categories:
+tags:
+     - CSS
+     - 小知识
+---
 ##### 控制一句话长度超出隐藏显示省略号
 *列如：* 
 > .class{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
